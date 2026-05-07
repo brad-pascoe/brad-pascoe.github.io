@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "brad-pascoe/brad-pascoe",
+    "data-repo": "brad-pascoe/brad-pascoe.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
