@@ -1,0 +1,205 @@
+\documentclass[11pt]{article}       % set main text size
+\usepackage[letterpaper,                % set paper size to letterpaper. change to a4paper for resumes outside of North America
+top=0.5in,                          % specify top page margin
+bottom=0.5in,                       % specify bottom page margin
+left=0.5in,                         % specify left page margin
+right=0.5in]{geometry}              % specify right page margin
+                       
+\usepackage{XCharter}               % set font. comment this line out if you want to use the default LaTeX font Computer Modern
+\usepackage[T1]{fontenc}            % output encoding
+\usepackage[utf8]{inputenc}         % input encoding
+\usepackage{enumitem}               % enable lists for bullet points: itemize and \item
+\usepackage[hidelinks]{hyperref}    % format hyperlinks
+\usepackage{titlesec}               % enable section title customization
+\usepackage{comment}
+\raggedright                        % disable text justification
+\pagestyle{empty}                   % disable page numbering
+
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% format section headings: bolding, size, white space above and below
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+
+% format bullet points: size, white space above and below, white space between bullets
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, topsep=7pt} %%% Test various topsep values to fix vertical spacing errors
+
+% resume starts here
+\begin{document}
+
+% name
+\centerline{\Huge Bradley Pascoe}
+
+\vspace{5pt}
+
+% contact information
+\centerline{\href{mailto:bradley.pascoe@unisq.edu.au}{bradley.pascoe@unisq.edu.au} | \href{https://www.linkedin.com/in/bradleypascoe}{www.linkedin.com/in/bradleypascoe}}
+
+\vspace{-10pt}
+
+% skills section
+
+% \vspace{-6.5pt}
+
+% experience section
+\section*{Experience}
+
+\subsection*{Research}
+\vspace{-6pt}
+\textbf{Research Fellow} {University of Southern Queensland} -- Springfield, QLD \hfill Jun 2025 -- Present \\
+\vspace{-9pt}
+\begin{itemize}
+    \item Redesigned research code for vehicle codesign optimisation into modular, tested Python libraries, enabling reuse across multiple studies and improving reproducibility, numerical methods, and performance.
+    \item Developed a Python library for numerical computation of vehicle radiation spectra, accelerating core algorithms with Cython for high-performance evaluation.
+\end{itemize}
+
+\textbf{Doctoral Candidate, Research Associate} {University of Sydney} -- Sydney, NSW \hfill Mar 2021 -- Mar 2025 \\
+\vspace{-9pt}
+\begin{itemize}
+    \item Investigated the effects of strain on turbulent mixing layers by implementing and validating advanced numerical methods into a Fortran codebase for the solution of partial differential equations. 
+    \item Utilised high-performance computing infrastructure using code developed for OpenMP and MPI parallelisations to simulate and analyse terabytes of data, aided by Bash and Python scripts to organise jobs and files.
+    % \item Automated visualisations of simulated data with Python APIs, greatly reducing the time required and reducing the memory usage by 20-75\%.
+    \item Automated visualisations of simulated data with Python APIs, reducing time and memory usage by 20-75\%.
+    \item Derived and calibrated reduced order models, achieving accurate predictions of fluid flow quantities for over 10,000$\times$ less computational cost compared to simulating the three-dimensional fluid flow.
+\end{itemize}
+
+\textbf{Research Engineer} {Defence Science and Technology Group} -- Melbourne, VIC \hfill Feb 2020 -- Jan 2021 \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Enhanced the pre- and post-processing capabilities of multi-dimensional fatigue spectrum and strain data by developing and optimising a library in R, including introducing version control and unit tests.
+  \item Designed programs to read and evaluate data from fatigue testing systems, allowing for continuous verification of experimental regulatory compliance.
+\end{itemize}
+\vspace{-16pt}
+\subsection*{Teaching}
+\vspace{-6pt}
+\subsubsection*{Academic Tutor/Demonstrator}
+\vspace{-6pt}
+Engineering Mechanics (AMME1802), University of Sydney \hfill 2024\\
+Engineering Methods (AMME3060), University of Sydney \hfill 2024\\
+Applied Fluid Dynamics and Turbulence (AMME5292), University of Sydney \hfill 2024\\
+Linear Systems and Control (MMAN3200), University of NSW \hfill 2018, 2019, 2021, 2022\\
+Engineering Mechanics (ENGG1300), University of NSW \hfill 2018, 2019 \\
+Engineering Mechanics 2 (MMAN2300), University of NSW \hfill 2018, 2019 \\
+Mechanics of Solids (MMAN2400), University of NSW \hfill 2018, 2019 \\
+Physics 1A (PHYS1121), University of NSW \hfill 2018, 2019 \\
+
+\vspace{-6pt}
+\subsubsection*{Mentoring}
+\vspace{-6pt}
+Supervised an engineering undergraduate thesis project (AMME4112) \hfill 2023
+\begin{comment}
+
+
+% projects section
+\section*{Projects}
+\textbf{Project Title} \hfill \href{https://github.com/matiassingers/awesome-readme}{github.com/name/project} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item The more work experience you have, the less relevant outside-work projects tend to become
+  \item If you have something that really stands out, consider listing it here
+\end{itemize}
+
+\textbf{Project Title} \hfill \href{https://mitcommlab.mit.edu/meche/commkit/portfolio/}{project.com} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Only list real projects, not mandatory school projects or trivial tutorial projects found online 
+  \item Something that someone uses to solve a problem
+  \item Something that has users (can be just you, as long as you use it often) and is actively maintained and not just rotting in a GitHub repo, never to see a PR for the rest of its life
+\end{itemize}
+
+\textbf{Project Title} \hfill \href{https://www.hardwareishard.net/portfolio-database}{blog.com/projectname} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Resume checklist: \url{https://old.reddit.com/r/EngineeringResumes/wiki/checklist}
+  \item Google Docs version of this template: \url{https://docs.google.com/document/d/1MBvhATv8y-ESORopRoLSZ3f3HjkM_Qa_f8fIHAEqgnI/edit}
+\end{itemize}
+
+% alternate formatting for projects section
+% \section*{Projects}
+% \begin{itemize}
+%   \item \textbf{QuantSoftware Toolkit:} Open source Python library for data analysis and machine learning for finance
+%   \item \textbf{GitHub Visualization:} Data visualization of Git Log data using D3 to analyze project trends over time
+%   \item \textbf{Recommendation System:} Music and movie recommender systems using collaborative filtering on public datasets
+%   \item \textbf{Mac Setup:} Book that gives step by step instructions on setting up developer environment on Mac OS
+% \end{itemize}
+\end{comment}
+
+% \vspace{-18.5pt}
+%\vspace{-18.5pt}
+% \vspace{-6.5pt}
+
+% education section
+\section*{Education}
+\textbf{University of Sydney} -- PhD in Engineering \hfill Dec 2024 \\
+\textbf{University of New South Wales} -- B.Eng.(Hons) in Aerospace Engineering \hfill Jan 2021 \\
+\textbf{University of New South Wales} -- B.Sc. in Physics \hfill Jan 2021
+
+\vspace{-6.5pt}
+
+\section*{Skills}
+% \textbf{CAD:} Siemens NX, CATIA V5, SolidWorks \\
+% \textbf{Analysis:} Thermal Desktop, Abaqus, LS-DYNA, STAR-CCM+\\
+\textbf{Languages:} Bash, C++, Fortran, MATLAB, Python, R, SQL\\
+\textbf{Tools:} Git, LaTeX, MPI, OpenMP \\
+\textbf{Software:} ANSYS Fluent, CATIA, Paraview, SolidWorks, Tecplot
+
+\vspace{-6.5pt}
+\section*{Publications}
+\begin{itemize}
+    \item \textbf{B. Pascoe}, M. Groom, D.L. Youngs, and B. Thornber (2026), Impact of transverse strain on linear, transitional and self-similar turbulent mixing layers, Journal of Fluid Mechanics, 1030, A61
+    \item \textbf{B. Pascoe}, M.Groom, B. Thornber (2026), Late-time growth of an inhomogenous, turbulent mixing layer subjected to transient compression, Physica D: Nonlinear Phenomena, 488, 135056
+    \item \textbf{B. Pascoe}, M.Groom, B. Thornber (2025), Turbulence modelling of mixing layer under anisotropic strain, Physical Review Fluids, 10, 064609
+    \item \textbf{B. Pascoe}, M. Groom, D.L. Youngs, and B. Thornber (2024), Impact of axial strain on linear, transitional and self-similar turbulent mixing layers, Journal of Fluid Mechanics, 999, A5
+\end{itemize}
+
+\vspace{-16.5pt}
+\section*{Presentations}
+\begin{itemize}
+\item \textit{Shock-driven compressible turbulent mixing in planar and convergence geometries}, University of Oxford (2024)
+\item \textit{The impact of strain-rates on linear, transitional and self-similar turbulent mixing layers}, First Light Fusion (2024)
+\item \textit{Reynolds-averaged Navier-Stokes modelling for the Richtmyer-Meshkov instability under anisotropic strain}, 18th International Worksop on the Physics of Compressible Turbulent Mixing (2024)
+\item \textit{Modelling the effects of convergence on the Richtmyer-Meshkov instability in planar geometry}, American Physical Society Division of Fluid Dynamics Annual Meeting (2023)
+\item \textit{Modelling the Richtmyer-Meshkov instability under strain}, International High Performance Computing Summer School (2023)
+\item \textit{The Richtmyer-Meshkov instability under axial strain}, 23rd Australasian Fluid Mechanics Conference (2022)
+\item \textit{The effect of axial strain on the Richtmyer-Meshkov instability}, 17th International Workshop on the Physics of Compressible Turbulent Mixing (2022)
+\end{itemize}
+
+\vspace{-16.5pt}
+\section*{Grants}
+\begin{itemize}
+    \item Very High-Order Solver Frameworks for Compressible Turbulent Mixing, UK Research and Innovation GPU eCSE, £127,992 (2025)
+\end{itemize}
+
+\vspace{-16.5pt}
+\section*{Honours and Awards}
+\begin{itemize}
+    \item University of Sydney HDR Publication Award - Mechanical/Thermofluids (2024)
+    \item International High Performance Computing Summer School attendee (2023)
+    \item Science Vacation Research Scholarship (2018)
+    \item Future Physicist International Summer Camp attendee (2018)
+\end{itemize}
+
+\vspace{-16.5pt}
+\section{Service}
+
+\textbf{Journal/Conference Reviewer}\\
+Journal of Fluid Mechanics, Physica D: Nonlinear Phenomena, 24th Australasian Fluid Mechanics Conference\\
+
+\vspace{9pt}
+\textbf{Elected Student Representative Council Member}\\
+Australasian Fluid Mechanics Society \hfill 2023 -- 2024
+\begin{itemize}
+    \item Chair of the HDR/ECR subcommittee and the Emerging Leaders subcommittee.
+\end{itemize}
+
+% \vspace{6pt}
+\textbf{Conference Administration Lead}\\
+University of Sydney \hfill Sep 2022 -- Jan 2023
+\begin{itemize}
+  \item Prepared the delegate materials, childcare services, and catering, and managed a team of 30 volunteers for a four-day conference with 400+ delegates, helping the conference to achieve a rating of 4.57/5 for organisation.
+  \item Designed and distributed the post-conference survey and compiled the results into a report, obtaining a record number of responses for the post-conference survey.
+\end{itemize}
+
+\end{document}
