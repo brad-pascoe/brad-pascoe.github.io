@@ -2,96 +2,141 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Bradley Pascoe
+    - name: Email
+      value: bradley.pascoe@unisq.edu.au
+    - name: LinkedIn
+      value: www.linkedin.com/in/bradleypascoe
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD in Engineering
+      institution: University of Sydney, Sydney, NSW
+      year: 2024
+    - title: B.Eng.(Hons) in Aerospace Engineering
+      institution: University of New South Wales, Sydney, NSW
+      year: 2021
+    - title: B.Sc. in Physics
+      institution: University of New South Wales, Sydney, NSW
+      year: 2021
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Fellow
+      institution: University of Southern Queensland, Springfield, QLD
+      year: Jun 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Redesigned research code for vehicle codesign optimisation into modular, tested Python libraries, enabling reuse across multiple studies and improving reproducibility, numerical methods, and performance.
+        - Developed a Python library for numerical computation of vehicle radiation spectra, accelerating core algorithms with Cython for high-performance evaluation.
+    - title: Doctoral Candidate, Research Associate
+      institution: University of Sydney, Sydney, NSW
+      year: Mar 2021 - Mar 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Investigated the effects of strain on turbulent mixing layers by implementing and validating advanced numerical methods into a Fortran codebase for the solution of partial differential equations.
+        - Utilised high-performance computing infrastructure using code developed for OpenMP and MPI parallelisations to simulate and analyse terabytes of data, aided by Bash and Python scripts to organise jobs and files.
+        - Automated visualisations of simulated data with Python APIs, reducing time and memory usage by 20-75%.
+        - Derived and calibrated reduced order models, achieving accurate predictions of fluid flow quantities for over 10,000x less computational cost compared to simulating the three-dimensional fluid flow.
+    - title: Research Engineer
+      institution: Defence Science and Technology Group, Melbourne, VIC
+      year: Feb 2020 - Jan 2021
       description:
+        - Enhanced the pre- and post-processing capabilities of multi-dimensional fatigue spectrum and strain data by developing and optimising a library in R, including introducing version control and unit tests.
+        - Designed programs to read and evaluate data from fatigue testing systems, allowing for continuous verification of experimental regulatory compliance.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Academic Tutor/Demonstrator
+      institution: University of Sydney
+      year: 2024
+      description:
+        - Engineering Mechanics (AMME1802)
+        - Engineering Methods (AMME3060)
+        - Applied Fluid Dynamics and Turbulence (AMME5292)
+    - title: Academic Tutor/Demonstrator
+      institution: University of New South Wales
+      year: 2018 - 2022
+      description:
+        - "Linear Systems and Control (MMAN3200) — 2018, 2019, 2021, 2022"
+        - "Engineering Mechanics (ENGG1300) — 2018, 2019"
+        - "Engineering Mechanics 2 (MMAN2300) — 2018, 2019"
+        - "Mechanics of Solids (MMAN2400) — 2018, 2019"
+        - "Physics 1A (PHYS1121) — 2018, 2019"
+    - title: Thesis Supervisor
+      institution: University of Sydney
+      year: 2023
+      description:
+        - Supervised an engineering undergraduate thesis project (AMME4112).
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Bash, C++, Fortran, MATLAB, Python, R, SQL
+    - title: Tools
       items:
-        - Description 1.
-        - Description 2.
+        - Git, LaTeX, MPI, OpenMP
+    - title: Software
+      items:
+        - ANSYS Fluent, CATIA, Paraview, SolidWorks, Tecplot
 
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "B. Pascoe, M. Groom, D.L. Youngs, and B. Thornber (2026), Impact of transverse strain on linear, transitional and self-similar turbulent mixing layers, <i>Journal of Fluid Mechanics</i>, 1030, A61"
+    - "B. Pascoe, M. Groom, B. Thornber (2026), Late-time growth of an inhomogenous, turbulent mixing layer subjected to transient compression, <i>Physica D: Nonlinear Phenomena</i>, 488, 135056"
+    - "B. Pascoe, M. Groom, B. Thornber (2025), Turbulence modelling of mixing layer under anisotropic strain, <i>Physical Review Fluids</i>, 10, 064609"
+    - "B. Pascoe, M. Groom, D.L. Youngs, and B. Thornber (2024), Impact of axial strain on linear, transitional and self-similar turbulent mixing layers, <i>Journal of Fluid Mechanics</i>, 999, A5"
+
+- title: Presentations
+  type: list
+  contents:
+    - "<i>Shock-driven compressible turbulent mixing in planar and convergence geometries</i>, University of Oxford (2024)"
+    - "<i>The impact of strain-rates on linear, transitional and self-similar turbulent mixing layers</i>, First Light Fusion (2024)"
+    - "<i>Reynolds-averaged Navier-Stokes modelling for the Richtmyer-Meshkov instability under anisotropic strain</i>, 18th International Workshop on the Physics of Compressible Turbulent Mixing (2024)"
+    - "<i>Modelling the effects of convergence on the Richtmyer-Meshkov instability in planar geometry</i>, American Physical Society Division of Fluid Dynamics Annual Meeting (2023)"
+    - "<i>Modelling the Richtmyer-Meshkov instability under strain</i>, International High Performance Computing Summer School (2023)"
+    - "<i>The Richtmyer-Meshkov instability under axial strain</i>, 23rd Australasian Fluid Mechanics Conference (2022)"
+    - "<i>The effect of axial strain on the Richtmyer-Meshkov instability</i>, 17th International Workshop on the Physics of Compressible Turbulent Mixing (2022)"
+
+- title: Grants
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "Very High-Order Solver Frameworks for Compressible Turbulent Mixing, UK Research and Innovation GPU eCSE, \xA3127,992"
+
+- title: Honours and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - University of Sydney HDR Publication Award - Mechanical/Thermofluids
+    - year: 2023
+      items:
+        - International High Performance Computing Summer School attendee
+    - year: 2018
+      items:
+        - Science Vacation Research Scholarship
+        - Future Physicist International Summer Camp attendee
+
+- title: Service
+  type: time_table
+  contents:
+    - title: Journal/Conference Reviewer
+      description:
+        - "Journal of Fluid Mechanics, Physica D: Nonlinear Phenomena, Australasian Fluid Mechanics Conference"
+    - title: Elected Student Representative Council Member
+      institution: Australasian Fluid Mechanics Society
+      year: 2023 - 2024
+      description:
+        - Chair of the HDR/ECR subcommittee and the Emerging Leaders subcommittee.
+    - title: Conference Administration Lead
+      institution: University of Sydney
+      year: Sep 2022 - Jan 2023
+      description:
+        - "Prepared the delegate materials, childcare services, and catering, and managed a team of 30 volunteers for a four-day conference with 400+ delegates, helping the conference to achieve a rating of 4.57/5 for organisation."
+        - Designed and distributed the post-conference survey and compiled the results into a report, obtaining a record number of responses for the post-conference survey.

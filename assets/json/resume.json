@@ -1,200 +1,234 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Bradley Pascoe",
+    "label": "Research Fellow",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "bradley.pascoe@unisq.edu.au",
+    "phone": "",
+    "url": "https://brad-pascoe.github.io",
+    "summary": "Research Fellow at the University of Southern Queensland working on computational fluid dynamics, turbulent mixing, and high-performance computing.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Springfield",
+      "region": "QLD",
+      "countryCode": "AU"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "bradleypascoe",
+        "url": "https://www.linkedin.com/in/bradleypascoe"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "University of Southern Queensland",
+      "position": "Research Fellow",
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Redesigned research code for vehicle codesign optimisation into modular, tested Python libraries, enabling reuse across multiple studies and improving reproducibility, numerical methods, and performance.",
+        "Developed a Python library for numerical computation of vehicle radiation spectra, accelerating core algorithms with Cython for high-performance evaluation."
+      ]
+    },
+    {
+      "name": "University of Sydney",
+      "position": "Doctoral Candidate, Research Associate",
+      "startDate": "2021-03-01",
+      "endDate": "2025-03-01",
+      "summary": "",
+      "highlights": [
+        "Investigated the effects of strain on turbulent mixing layers by implementing and validating advanced numerical methods into a Fortran codebase for the solution of partial differential equations.",
+        "Utilised high-performance computing infrastructure using code developed for OpenMP and MPI parallelisations to simulate and analyse terabytes of data, aided by Bash and Python scripts to organise jobs and files.",
+        "Automated visualisations of simulated data with Python APIs, reducing time and memory usage by 20-75%.",
+        "Derived and calibrated reduced order models, achieving accurate predictions of fluid flow quantities for over 10,000x less computational cost compared to simulating the three-dimensional fluid flow."
+      ]
+    },
+    {
+      "name": "Defence Science and Technology Group",
+      "position": "Research Engineer",
+      "startDate": "2020-02-01",
+      "endDate": "2021-01-01",
+      "summary": "",
+      "highlights": [
+        "Enhanced the pre- and post-processing capabilities of multi-dimensional fatigue spectrum and strain data by developing and optimising a library in R, including introducing version control and unit tests.",
+        "Designed programs to read and evaluate data from fatigue testing systems, allowing for continuous verification of experimental regulatory compliance."
+      ]
+    },
+    {
+      "name": "University of Sydney",
+      "position": "Academic Tutor/Demonstrator",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-01",
+      "summary": "",
+      "highlights": [
+        "Engineering Mechanics (AMME1802)",
+        "Engineering Methods (AMME3060)",
+        "Applied Fluid Dynamics and Turbulence (AMME5292)"
+      ]
+    },
+    {
+      "name": "University of New South Wales",
+      "position": "Academic Tutor/Demonstrator",
+      "startDate": "2018-01-01",
+      "endDate": "2022-12-01",
+      "summary": "",
+      "highlights": [
+        "Linear Systems and Control (MMAN3200) — 2018, 2019, 2021, 2022",
+        "Engineering Mechanics (ENGG1300) — 2018, 2019",
+        "Engineering Mechanics 2 (MMAN2300) — 2018, 2019",
+        "Mechanics of Solids (MMAN2400) — 2018, 2019",
+        "Physics 1A (PHYS1121) — 2018, 2019"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Australasian Fluid Mechanics Society",
+      "position": "Elected Student Representative Council Member",
+      "startDate": "2023-01-01",
+      "endDate": "2024-12-01",
+      "summary": "Chair of the HDR/ECR subcommittee and the Emerging Leaders subcommittee.",
+      "highlights": []
+    },
+    {
+      "organization": "University of Sydney",
+      "position": "Conference Administration Lead",
+      "startDate": "2022-09-01",
+      "endDate": "2023-01-01",
+      "summary": "",
+      "highlights": [
+        "Prepared the delegate materials, childcare services, and catering, and managed a team of 30 volunteers for a four-day conference with 400+ delegates, helping the conference to achieve a rating of 4.57/5 for organisation.",
+        "Designed and distributed the post-conference survey and compiled the results into a report, obtaining a record number of responses for the post-conference survey."
+      ]
+    },
+    {
+      "organization": "Journal/Conference Reviewer",
+      "position": "Peer Reviewer",
+      "summary": "Journal of Fluid Mechanics, Physica D: Nonlinear Phenomena, 24th Australasian Fluid Mechanics Conference",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Sydney",
+      "location": "Sydney, NSW, Australia",
+      "url": "https://www.sydney.edu.au",
+      "area": "Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2021-03-01",
+      "endDate": "2024-12-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of New South Wales",
+      "location": "Sydney, NSW, Australia",
+      "url": "https://www.unsw.edu.au",
+      "area": "Aerospace Engineering",
+      "studyType": "B.Eng.(Hons)",
+      "startDate": "2017-01-01",
+      "endDate": "2021-01-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of New South Wales",
+      "location": "Sydney, NSW, Australia",
+      "url": "https://www.unsw.edu.au",
+      "area": "Physics",
+      "studyType": "B.Sc.",
+      "startDate": "2017-01-01",
+      "endDate": "2021-01-01",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "University of Sydney HDR Publication Award - Mechanical/Thermofluids",
+      "date": "2024-01-01",
+      "awarder": "University of Sydney",
+      "summary": ""
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "International High Performance Computing Summer School attendee",
+      "date": "2023-01-01",
+      "awarder": "",
+      "summary": ""
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Very High-Order Solver Frameworks for Compressible Turbulent Mixing",
+      "date": "2025-01-01",
+      "awarder": "UK Research and Innovation GPU eCSE",
+      "summary": "£127,992"
     },
     {
-      "name": "Quantum Cryptography",
+      "title": "Science Vacation Research Scholarship",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "awarder": "",
+      "summary": ""
     },
     {
-      "name": "Quantum Communication",
+      "title": "Future Physicist International Summer Camp attendee",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "awarder": "",
+      "summary": ""
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Impact of transverse strain on linear, transitional and self-similar turbulent mixing layers",
+      "publisher": "Journal of Fluid Mechanics",
+      "releaseDate": "2026-01-01",
+      "url": "",
+      "summary": "B. Pascoe, M. Groom, D.L. Youngs, and B. Thornber. Journal of Fluid Mechanics, 1030, A61."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Late-time growth of an inhomogenous, turbulent mixing layer subjected to transient compression",
+      "publisher": "Physica D: Nonlinear Phenomena",
+      "releaseDate": "2026-01-01",
+      "url": "",
+      "summary": "B. Pascoe, M. Groom, B. Thornber. Physica D: Nonlinear Phenomena, 488, 135056."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Turbulence modelling of mixing layer under anisotropic strain",
+      "publisher": "Physical Review Fluids",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "B. Pascoe, M. Groom, B. Thornber. Physical Review Fluids, 10, 064609."
+    },
+    {
+      "name": "Impact of axial strain on linear, transitional and self-similar turbulent mixing layers",
+      "publisher": "Journal of Fluid Mechanics",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": "B. Pascoe, M. Groom, D.L. Youngs, and B. Thornber. Journal of Fluid Mechanics, 999, A5."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming Languages",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Bash", "C++", "Fortran", "MATLAB", "Python", "R", "SQL"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Tools",
+      "level": "",
+      "icon": "fa-solid fa-wrench",
+      "keywords": ["Git", "LaTeX", "MPI", "OpenMP"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Software",
+      "level": "",
+      "icon": "fa-solid fa-desktop",
+      "keywords": ["ANSYS Fluent", "CATIA", "Paraview", "SolidWorks", "Tecplot"]
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
 }
