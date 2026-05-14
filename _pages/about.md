@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Hypersonics Researcher | CFD • Compressible Flow • Aerothermodynamics | PhD (USyd)
 
