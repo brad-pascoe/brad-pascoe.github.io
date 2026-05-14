@@ -26,8 +26,10 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Fellow at the [University of Southern Queensland](https://www.unisq.edu.au), where I work primarily on vehicle and control co-design.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research background is in compressible turbulent flows, with a focus on the [Richtmyer–Meshkov instability](https://en.wikipedia.org/wiki/Richtmyer%E2%80%93Meshkov_instability) and turbulent mixing layers under strain. My doctoral work at the [University of Sydney](https://www.sydney.edu.au) investigated how axial and transverse strain alter the linear, transitional, and self-similar regimes of turbulent mixing, combining high-fidelity simulations on HPC systems with reduced-order RANS modelling.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I hold a PhD in Engineering from the University of Sydney, and a B.Eng.(Hons) in Aerospace Engineering and a B.Sc. in Physics from the [University of New South Wales](https://www.unsw.edu.au). Prior to my doctorate, I worked as a Research Engineer at the [Defence Science and Technology Group](https://www.dst.defence.gov.au), developing data processing tools for structural fatigue analysis.
+
+My work spans scientific computing (Fortran, Python, C++), parallel programming (MPI, OpenMP), and data-driven modelling, with a strong emphasis on reproducibility and software quality.
